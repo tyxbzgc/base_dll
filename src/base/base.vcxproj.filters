@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="crypt">
+      <UniqueIdentifier>{82c5d84d-af9e-44b0-9b13-b6c6f459fe94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="strings">
+      <UniqueIdentifier>{cf493df2-1346-49d1-9ad7-ec313eab20a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{0e4d5e5a-977a-42d1-a501-b6510b79ff65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{6c1a83d9-b21c-4e11-82d7-50b14de4a81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe_load_library">
+      <UniqueIdentifier>{13432371-891d-4ebd-800d-4ee2cfe59309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{3ea2e58b-5b6b-4f58-9c8d-1dbc5b27f80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{2516373a-4520-469f-a962-4ae013149275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{b56a909e-a3c6-4118-9ff9-b8011954b5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="http">
+      <UniqueIdentifier>{fb256f70-3853-4a43-871d-232eccd13306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reg">
+      <UniqueIdentifier>{48506201-bf97-479b-a4c2-7c950062908c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="command_line">
+      <UniqueIdentifier>{2a82b0f8-ab48-499a-9611-b08d60f75e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="url">
+      <UniqueIdentifier>{878e66fb-dc5c-4242-a0dc-c42f2a8fb86c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\crypt\base64.h">
+      <Filter>crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\crypt\crypt.h">
+      <Filter>crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\crypt\crypt_data.h">
+      <Filter>crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\crypt\rc4.h">
+      <Filter>crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\strings\string_format.h">
+      <Filter>strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\strings\string_operate.h">
+      <Filter>strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\strings\string_utils.h">
+      <Filter>strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\strings\string_convert.h">
+      <Filter>strings</Filter>
+    </ClInclude>
+    <ClInclude Include="config\ini.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\config\ini_reader.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\files\file_attr_utils.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\files\file_default_icon_picker.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\files\file_misc.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\files\file_opt_utils.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\files\image_utils.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\files\path_utils.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\safe_load_library\safe_load_library.h">
+      <Filter>safe_load_library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\system\network_utils.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\system\process_utils.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\system\sys_attr_utils.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\time\time.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\http\http_client.h">
+      <Filter>http</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_tool.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\allocator.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\assertions.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\features.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\reader.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\value.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\writer.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\json\json_config.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\reg\reg_utils.h">
+      <Filter>reg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\files\file_version_info.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="files\file_version_info_win.h">
+      <Filter>files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\basic_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\base_export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\command_line\command_line.h">
+      <Filter>command_line</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\compiler_specific.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\crash_catcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\crypt\rsa.h">
+      <Filter>crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\base\url\url_util.h">
+      <Filter>url</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt\base64.cpp">
+      <Filter>crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt\crypt_data.cpp">
+      <Filter>crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt\rc4.cpp">
+      <Filter>crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\string_convert.cpp">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\string_format.cpp">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="strings\string_operate.cpp">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="config\ini.c">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="config\int_reader.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="files\file_attr_utils.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="files\file_default_icon_picker.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="files\file_misc.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="files\file_opt_utils.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="files\image_utils.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="files\path_utils.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="safe_load_library\safe_load_library.cpp">
+      <Filter>safe_load_library</Filter>
+    </ClCompile>
+    <ClCompile Include="system\network_utils.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\process_utils.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\sys_attr_utils.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_client.cpp">
+      <Filter>http</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_reader.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_value.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_writer.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_valueiterator.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="files\file_version_info_win.cpp">
+      <Filter>files</Filter>
+    </ClCompile>
+    <ClCompile Include="command_line\command_line.cpp">
+      <Filter>command_line</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt\rsa.cpp">
+      <Filter>crypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
